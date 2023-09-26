@@ -4,18 +4,19 @@
     font-family: sans-serif;
     overflow: hidden;
 }
-.container {
+.event-container {
     position: relative;
     background: #aad5f6;
 }
+
 .slide-1 {
-    background: url('/assets/1.jpg');
+    background: url('/assets/one.jpg');
 }
 .slide-2 {
-    background: url('/assets/2.jpg');
+    background: url('/assets/two.jpg');
 }
 .slide-3 {
-    background: url('/assets/3.jpg');
+    background: url('/assets/three.jpg');
 }
 
 .slide {
@@ -84,9 +85,9 @@
 .arrow:hover {
     background: rgba(0, 0, 0, .4);
 }
-.l {
+.left {
     left: 0;
 }
-.r {
+.right {
     right: 0;
 }
