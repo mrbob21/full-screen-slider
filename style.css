@@ -4,7 +4,7 @@
     font-family: sans-serif;
     overflow: hidden;
 }
-.event-container {
+.events-container {
     position: relative;
     background: #aad5f6;
 }
@@ -52,7 +52,7 @@
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
     left: 1%;
-    bottom: 3%;
+    bottom: 8%;
     padding: 10px;
     animation:showcontent 1s ease-in-out 0.5s 1 forwards
 }
@@ -70,7 +70,7 @@
     font-size: 1rem;
     line-height: 1.5em;
 }
-.arrow {
+.events-arrow {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -79,10 +79,10 @@
     background: rgba(0, 0, 0, .1);
     border-radius: 50%;
 }
-.arrow img {
+.events-arrow img {
     width: 50px;
 }
-.arrow:hover {
+.events-arrow:hover {
     background: rgba(0, 0, 0, .4);
 }
 .left {
@@ -91,3 +91,32 @@
 .right {
     right: 0;
 }
+
+.topnav {
+    overflow: hidden;
+    background-color: purple;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 1.25rem;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: skyblue;
+    color: white;
+  }
+  
+  .topnav-right {
+    float: right;
+  }
+  
