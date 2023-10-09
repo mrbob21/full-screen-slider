@@ -1,4 +1,4 @@
-let slide = document.querySelectorAll('.slide');
+let slide = document.querySelectorAll('.slide'); //need to search up later
 var current = 0; //starting slide
 
 function cls(){
